@@ -1,0 +1,121 @@
+body {
+    width: 80%;
+    margin: 0 auto;
+    font-family: Verdana;
+}
+
+.menu li {
+    display: inline;
+    line-height: 2em;
+    padding-right: .5em;
+    padding-left: .5em;
+    border-radius: 25px ;
+}
+.menu li:hover {
+    display: inline;
+    line-height: 2em;
+    border-radius: 25px;
+    background-color: rgba(148,148,143,0.81);
+    padding: .5em 2em .5em 2em;
+}
+a:hover{
+    color: #ffffff;
+}
+
+#maincontent {
+    width: 99.5%;
+    float: right;
+
+    border: #58D68D;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 25px;
+
+    margin-left: 0.5%;
+
+}
+
+#maincontent {
+    box-shadow: 25px
+
+}
+
+#primary {
+    width: 95%;
+    margin-left: 4%;
+    margin-top: 3% ;
+    margin-right: 4%;
+}
+ul {
+    display: inline;
+    margin-left: -3.5%;
+}
+li.current a {
+    border-radius: 25px;
+    background: #27AE60;
+    padding: .5em 2em .5em 2em;
+    color:white;
+}
+a {
+    text-decoration: none;
+    color: #52be80;
+}
+.zoznam  {
+    list-style-position: inside;
+    list-style-type:circle;
+    padding-right: 1px;
+    padding-left: 1px;
+    padding-top: 1px;
+    text-indent: 4px;
+}
+#header {
+    width: 100%;
+}
+.nadpis2 {
+    color: #45be77;
+}
+#navigation {
+    width: 100%;
+    float: left;
+}
+#halit {
+    display: block;
+    width: 180px;
+    height: 210px;
+    margin: 20px;
+}
+img  {
+    border-radius: 25px;
+}
+table, th, td {
+    border: 1px black;
+    text-align: center;
+}
+table {
+    width: 85px;
+
+}
+th {
+    height: 25px;
+    text-align: center;
+    background-color: #52be80;
+    color: white;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+#cesta{
+    width: 1100px;
+    height: 300px;
+}
+.zdroje{
+    margin: 25px;
+    padding-left: 50px;
+}
+
+
+
+

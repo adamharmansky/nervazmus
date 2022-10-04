@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Romania
+</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel=stylesheet href=/style.css>
+</head>
+<body>
+<nav>
+    <ul class="navbar hiddenNavbar" id="navbar">
+        <li class=navbar-title> Salt over gold</li>
+        <li class=navbar-item> <a href='/'> Home </a> </li>
+        <li class=navbar-item> <a href='/partners/'> Partners </a> </li>
+        <li id="workMenuButton" class=navbar-item>
+           <a> Students' works </a>
+            <ul id=workMenu class="menu invisibleMenu"}>
+               <li class=menuItem> <a href="/countries/slovakia/work"> Slovakia </a> </li>
+                <li class=menuItem> <a href="/countries/italy/work"> Italy </a> </li>
+                <li class=menuItem> <a href="/countries/turkey/work"> Turkey </a> </li>
+                <li class=menuItem> <a href="/countries/romania/work"> Romania </a> </li>
+                <li class=menuItem> <a href="/countries/portugal/work"> Portugal </a> </li>
+                <li class=menuItem> <a href="/countries/uk/work"> United Kingdom </a> </li>
+            </ul>
+        </li>
+        <li id="newsMenuButton" class=navbar-item>
+           <a> News </a>
+            <ul id=newsMenu class="menu invisibleMenu"}>
+                <li class=menuItem> <a href="/countries/slovakia/news"> Slovakia </a> </li>
+                <li class=menuItem> <a href="/countries/italy/news"> Italy </a> </li>
+                <li class=menuItem> <a href="/countries/turkey/news"> Turkey </a> </li>
+                <li class=menuItem> <a href="/countries/romania/news"> Romania </a> </li>
+                <li class=menuItem> <a href="/countries/portugal/news"> Portugal </a> </li>
+                <li class=menuItem> <a href="/countries/uk/news"> United Kingdom </a> </li>
+            </ul>
+        </li>
+        <li id="learnMenuButton" class=navbar-item>
+           <a> LTT Activities </a>
+            <ul id=learnMenu class="menu invisibleMenu">
+                <li class=menuItem> <a href="/countries/slovakia/learn"> Slovakia </a> </li>
+                <li class=menuItem> <a href="/countries/italy/learn"> Italy </a> </li>
+                <li class=menuItem> <a href="/countries/turkey/learn"> Turkey </a> </li>
+                <li class=menuItem> <a href="/countries/romania/learn"> Romania </a> </li>
+                <li class=menuItem> <a href="/countries/uk/learn"> United Kingdom </a> </li>
+                <li class=menuItem> <a href="/countries/portugal/learn"> Portugal </a> </li>
+            </ul>
+        </li>
+        <li class=navbar-item> <a href='https://www.facebook.com/groups/gympos.erazmus.salt.over.gold'> Facebook </a> </li>
+        <img class="menu_button" onclick='let menu=document.getElementById("navbar"); if (navbar.className == "navbar") {navbar.className = "navbar hiddenNavbar";} else {navbar.className = "navbar";}' src="/menu.svg" />
+        <script>
+            function add_events(menuName, buttonName) {
+              let button = document.getElementById(buttonName);
+              let menu = document.getElementById(menuName);
+              if (window.matchMedia("only screen and (max-width: 800px)").matches) {
+                button.onclick = ()=>{ menu.className = menu.className=="menu visibleMenu" ? "menu invisibleMenu" : "menu visibleMenu"; };
+              } else {
+                button.onmouseover = ()=>{ menu.className = "menu visibleMenu"; };
+                button.onmouseout = ()=>{ menu.className = "menu invisibleMenu"; };
+              }
+            }
+            add_events("newsMenu", "newsMenuButton");
+            add_events("workMenu", "workMenuButton");
+            add_events("learnMenu", "learnMenuButton");
+        </script>
+    </ul>
+</nav>
+<main>
+<h1 id="romania">Romania</h1>
+<p>December 2021</p>
+<h2 id="art-workshop-salt-painting">Art Workshop: Salt painting</h2>
+<p><a href="https://issuu.com/brianaelena/docs/88789c3b-5cef-4e99-9128-c7d305486598-converted_1_?fbclid=IwAR3DzWYERcKRh-dc7WVoLtmeOXHe2jhxIHh0v_nS-g3L2Z_LrhB4epX3Xc4">Online Gallery</a></p>
+</main>
+</body>
+</html>

@@ -1,0 +1,204 @@
+/* COLOURS:
+#F2F7F2 - Mint Cream (pozadie)
+#2E1E0F - Bistre (text)
+#88292F - Antique Ruby (h1)
+#9E829C - Mountbatten Pink (možno)
+#D89A9E - Pastel Pink (h2)
+#028090 - Metallic Seaweed (link)
+#114B5F - Midnight Grean Eagle (visited)
+#456990 - Queen Blue (hover)
+*/
+
+/* GLOBAL */
+
+body {
+  background-color: #F2F7F2;
+  color: #2E1E0F;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #88292F;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  color: #D89A9E;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.content-wrapper {
+  max-width: 1100px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+/* NAVIGATION */
+a:link, a:visited {
+  color: #028090;
+}
+
+a:hover {
+  color: #456990;
+}
+
+a:active {
+  color: #114B5F;
+}
+
+#navigation {
+  text-align: center;
+}
+
+#navigation > div {
+    border-bottom: 1px solid #2E1E0F;
+}
+
+#navigation ul {
+  list-style-type: none;
+  display: inline-flex;
+  padding-left: 0;
+}
+
+#navigation li {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 30px;
+}
+
+/* SOĽ A UMENIE */
+.artist {
+  margin-bottom: 80px;
+}
+
+#main p {
+  text-align: justify;
+  margin-bottom: 70px;
+}
+/* MOTOI YAMAMOTO - úvod */
+#quote {
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+}
+
+#author {
+  text-align: right;
+  margin-bottom: 60px;
+}
+
+.bio {
+  text-align: justify;
+}
+
+/* GALLERY */
+table {
+  margin: 0 auto;
+}
+
+.pic {
+  margin: 5px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pic img {
+  width: 100%;
+  height: 374px;
+}
+
+.popis {
+  font-size: 10px;
+  padding: 15px;
+  text-align: center;
+}
+
+#extra {
+  width: 1000px;
+}
+
+#vyska {
+  width: 250px;
+}
+
+/* ZDROJE */
+#zdroje > div {
+  width: 350px;
+}
+
+/* KONTAKT */
+#kontakt p {
+  text-align: center;
+}
+
+/* FORMULÁR */
+
+#form > div {
+  width: 400px;
+  text-align: center;
+}
+
+input[type=text] {
+  border: none;
+  border-bottom: 1px solid #2E1E0F;
+  background-color: #F2F7F2;
+  margin-bottom: 20px;
+  width: 200px;
+  color: #2E1E0F;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+textarea {
+  width: 400px;
+  height: 200px;
+  margin-top: 30px;
+  color: #2E1E0F;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+button {
+  height: 40px;
+  color: #2E1E0F;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 8px;
+  border: none;
+  margin: 20px 10px;
+  width: 150px;
+  background-color: #028090;
+  color: #F2F7F2;
+  font-size: 15px;
+}
+
+button:active {
+  background-color: #456990;
+}
+
+/* SOĽNÉ BANE */
+#bane p, #jaskyne p {
+  text-align: justify;
+}

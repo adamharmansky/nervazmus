@@ -1,0 +1,130 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="PSPad editor, www.pspad.com">
+  <link rel='stylesheet' type='text/css' href='main.css'/>
+  <link rel="shortcut icon" type='image/png' href="images/favicon.png">
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawStuff);
+
+      function drawStuff() {
+        var data = new google.visualization.arrayToDataTable([
+          ['Krajina', 'gramov / deň'],
+          ["Čína", 10.9],
+          ["Portugalsko", 10.5],
+          ["Taliansko", 9.7],
+          ["India", 9.1],
+          ['USA', 9],
+          ['Anglicko', 8.1]
+        ]);
+
+        var options = {
+          title: 'Chess opening moves',
+          width: 750,
+          legend: { position: 'none' },
+          backgroundColor: 'black',
+          chart: { title: 'Denný príjem soli'},
+          bars: 'horizontal', // Required for Material Bar Charts.
+          axes: {
+            x: {
+              0: { side: 'top', label: 'gram / deň'} // Top x-axis.
+            }
+          },
+          bar: { groupWidth: "90%" }
+        };
+
+        var chart = new google.charts.Bar(document.getElementById('top_x_div'));
+        chart.draw(data, options);
+      };
+    </script>
+  <title>Soľ</title>
+  </head>
+  <body>
+    <header id="top">
+      <nav class = 'nav_list'>
+        <ul>
+          <li><a href="index.html">Domov</a></li>
+          <li><a href="what_is_salt.html">Čo je soľ?</a></li>
+          <li><a href="salt_importance.html">Význam soli</a></li>
+          <li><a href="contact.html">Kontakt</a></li>
+          <li><a href="sources.html">Zdroje</a></li>
+        </ul>
+      </nav>
+    </header> 
+    <article class="text">
+      <h2>Význam soli</h2>
+      <h3>Význam soli v minulosti</h3>
+      <p><span class="initial_capital">P</span> rechod zo stravy lovcov a zberačov na stravu zloženú prevažne zo zeleniny a obilnín zapríčinil potrebu získavať soľ z iných zdrojov.
+        Avšak, keďže ľahko dostupná soľ v tej dobe bola vzácna a potreba pre ňu veľká, cena soli bola vysoká.</p>  
+      <p>V západnej Afrike kupci vymieňali gram soli za gram zlata. V Etiópii a v strednej Afrike používali soľ ako platidlo.</p>
+      <p>V hrobkách bohatých zo starovekého Egypta boli nájdené solené ryby a vtáky. Egyptské múmie boli mumifikované pomocou soli. Egypťania začali obchodovať so soľou s Feničanmi a tí obchodovali s celým Stredozemým.</p>
+      <p>Soľ je skvelý konzervant, a preto sa využíval nie len na konzervovanie múmií, ale aj jedál.</p>
+      <p>Rím, ako aj iné talianské mestá, boli postavené blízko solivaru. Keď Rimania presunuli svoj solivar, postavili k nemu cestu - Via Salaria (Soľná cesta).
+        Od 6. storočia p. n. l. ovládali rímski politici obchod so soľou. Cena soli bola umelo udržiavaná nízko, aby uspokojili obyvateľstvo. 
+        Avšak v čase potreby, napríklad počas vojen, bola na soľ uvalená soľná daň.</p>
+      <p>V 1. stor. p. n. l. sa soľ stala v Číne takou dôležitou komoditou, že obchod s ňou kontroloval štát. Soľ bola takou významnou, že cisár Zhaodi zvolal koncil, aby diskutovali o zavadení monopolu na soľ.           
+        Počas 1. storočia n. l. bola polovica príjmu čínskeho štátu spojená so soľou.</p>
+      <p>Soľ mala význam aj pre Benátčanov, ktorý s ňou obchodovali v Konštantínopole, vďaka čomu zbohatli.<sup><a href="sources.html#sources_source5" id='main_source5'>[5]</a></sup></p>
+      <h3>Význam soli v súčastnosti</h3>
+      <p><span class="initial_capital">S</span>oľ sa stala neodmysliteľnou súčasťou našich životou. S príchodom nových technológii sa soľ zlacnila a v dôsledku toho ju konzumujeme viac ako predtým.
+      </p>
+      <div>
+        <table border="1" id='t01'>
+          <caption>Krajiny podľa produkcie soli</caption>
+          <tr class="top_row">
+            <th >Poradie</th>
+            <th>Krajina</th>
+            <th>Produkcia soli (2012) v tonách</th>
+            <th>% svetovej produkcie</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Čína</td>
+            <td>62 158 000</td>
+            <td>22,48 %</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>USA</td>
+            <td>40 200 000</td>
+            <td>14,54%</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>India</td>
+            <td>24 500 000</td>
+            <td>8,86%</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Nemecko</td>
+            <td>19 021 295</td>
+            <td>6,88%</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Kanada</td>
+            <td>10 844 624</td>
+            <td>3,92%</td>
+          </tr>
+        </table>
+        <p class="description">Zdroj: <a href="sources.html#sources_source6" id="main_source6">[6]</a></p>
+      </div>
+      <p>Odporúčaná denná dávka sodíka podľa WHO by nemala presiahnuť 2000 mg (čo je ekvivalentné približne 5g soli).</p>
+      <div>
+        <div id="top_x_div" style="width: 500px; height: 500px;"></div>
+        <p class="description">Zdroj <a href="sources.html#sources_source7" id="main_source7">[7]</a></p>
+      </div>      
+      <p>Štúdie uvádzajú, že zvýšený príjem soli vedie k zvýšenému riziku kardiovaskulárnych chorôb, mozgovej príhody a chorôb obličiek. 
+        Znížený príjem soli, v prípade bežného vysokého príjmu, znižuje krvný tlak.</p>
+      <p>Novšie štúdie uvádzajú, že riziko nastáva aj pri nízkom príjme soli. Preto odporúčajú udržiavať dennú dávku soli medzi 4 až 5 gramami.<sup><a href="sources.html#source_source8" id="main_source8">[8]</a></sup></p>
+      <br>
+      <p>Soľ je v súčastnosti lacnejšia a dostupnejšia ako kedy predtým. Nachádza sa v mnohých potravinách a ani neriešime koľko. Slaná chuť je snáď pre všetkých príjemná, veď vždy, keď nám niečo nechutí, posolíme si. Ak však chceme byť zdravý, mali by sme si dávať pozor na to, aby sme jej nejedli priveľa, prípadne primálo.</p>
+      <a href="#top"><img src="images/button_top.png" alt="go to top button" class="go_top_button"></a>
+    </article>
+    <footer>E. Demko, III.A, 2021</footer>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+ 
+a {
+    color: #d8c2ff;
+}
+
+.sources {
+    margin-top: 16em;
+    text-align: center;
+}
+
+.sources h1 {
+    color: white;
+}
+
+.sources ul{
+    list-style: none; 
+    line-height: 1.5em;
+}
+
+.contact {
+    margin-top: 32em;
+    text-align: center;
+}
+
+.contact h1 {
+    color: white;
+}
+
+
+form input {
+    border-radius: 0px;
+    margin-right: .5em;
+    font-size: .75em;
+    color: white;
+    border:none;
+    border-bottom: 2px dotted white;
+    outline: none;
+    background-color: transparent;
+    transition: 500ms;
+}
+
+form input:hover, form input:focus {
+    border-bottom: 2px solid white;
+}

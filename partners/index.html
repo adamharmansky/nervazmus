@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Partners
+</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel=stylesheet href=/style.css>
+</head>
+<body>
+<nav>
+    <ul class="navbar hiddenNavbar" id="navbar">
+        <li class=navbar-title> Salt over gold</li>
+        <li class=navbar-item> <a href='/'> Home </a> </li>
+        <li class=navbar-item> <a href='/partners/'> Partners </a> </li>
+        <li id="workMenuButton" class=navbar-item>
+           <a> Students' works </a>
+            <ul id=workMenu class="menu invisibleMenu"}>
+               <li class=menuItem> <a href="/countries/slovakia/work"> Slovakia </a> </li>
+                <li class=menuItem> <a href="/countries/italy/work"> Italy </a> </li>
+                <li class=menuItem> <a href="/countries/turkey/work"> Turkey </a> </li>
+                <li class=menuItem> <a href="/countries/romania/work"> Romania </a> </li>
+                <li class=menuItem> <a href="/countries/portugal/work"> Portugal </a> </li>
+                <li class=menuItem> <a href="/countries/uk/work"> United Kingdom </a> </li>
+            </ul>
+        </li>
+        <li id="newsMenuButton" class=navbar-item>
+           <a> News </a>
+            <ul id=newsMenu class="menu invisibleMenu"}>
+                <li class=menuItem> <a href="/countries/slovakia/news"> Slovakia </a> </li>
+                <li class=menuItem> <a href="/countries/italy/news"> Italy </a> </li>
+                <li class=menuItem> <a href="/countries/turkey/news"> Turkey </a> </li>
+                <li class=menuItem> <a href="/countries/romania/news"> Romania </a> </li>
+                <li class=menuItem> <a href="/countries/portugal/news"> Portugal </a> </li>
+                <li class=menuItem> <a href="/countries/uk/news"> United Kingdom </a> </li>
+            </ul>
+        </li>
+        <li id="learnMenuButton" class=navbar-item>
+           <a> LTT Activities </a>
+            <ul id=learnMenu class="menu invisibleMenu">
+                <li class=menuItem> <a href="/countries/slovakia/learn"> Slovakia </a> </li>
+                <li class=menuItem> <a href="/countries/italy/learn"> Italy </a> </li>
+                <li class=menuItem> <a href="/countries/turkey/learn"> Turkey </a> </li>
+                <li class=menuItem> <a href="/countries/romania/learn"> Romania </a> </li>
+                <li class=menuItem> <a href="/countries/uk/learn"> United Kingdom </a> </li>
+                <li class=menuItem> <a href="/countries/portugal/learn"> Portugal </a> </li>
+            </ul>
+        </li>
+        <li class=navbar-item> <a href='https://www.facebook.com/groups/gympos.erazmus.salt.over.gold'> Facebook </a> </li>
+        <img class="menu_button" onclick='let menu=document.getElementById("navbar"); if (navbar.className == "navbar") {navbar.className = "navbar hiddenNavbar";} else {navbar.className = "navbar";}' src="/menu.svg" />
+        <script>
+            function add_events(menuName, buttonName) {
+              let button = document.getElementById(buttonName);
+              let menu = document.getElementById(menuName);
+              if (window.matchMedia("only screen and (max-width: 800px)").matches) {
+                button.onclick = ()=>{ menu.className = menu.className=="menu visibleMenu" ? "menu invisibleMenu" : "menu visibleMenu"; };
+              } else {
+                button.onmouseover = ()=>{ menu.className = "menu visibleMenu"; };
+                button.onmouseout = ()=>{ menu.className = "menu invisibleMenu"; };
+              }
+            }
+            add_events("newsMenu", "newsMenuButton");
+            add_events("workMenu", "workMenuButton");
+            add_events("learnMenu", "learnMenuButton");
+        </script>
+    </ul>
+</nav>
+<main>
+<center>
+<h1 id="partners">Partners</h1>
+</center>
+<div class="partner">
+<div class="partnerRole">
+<p>COORDINATOR OF THE PROJECT</p>
+</div>
+<div class="partnerName">
+<p>Gymnázium Poštová 9</p>
+</div>
+<div class="partnerInfo">
+<ul>
+<li>Košice, Slovakia</li>
+<li><a href="https://www.gympos.sk">www.gympos.sk</a></li>
+<li><a href="https://www.facebook.com/gympos/">Facebook</a></li>
+</ul>
+</div>
+</div>
+<div class="partner">
+<div class="partnerRole">
+<p>PARTNER SCHOOL</p>
+</div>
+<div class="partnerName">
+<p>Liceo Statale don Gnocchi</p>
+</div>
+<div class="partnerInfo">
+<ul>
+<li>Maddaloni, Italy</li>
+<li><a href="https://www.liceodongnocchi.edu.it/">www.liceodongnocchi.edu.it</a></li>
+<li><a href="https://www.facebook.com/groups/1517989628526168">Facebook</a></li>
+</ul>
+</div>
+</div>
+<div class="partner">
+<div class="partnerRole">
+<p>PARTNER SCHOOL</p>
+</div>
+<div class="partnerName">
+<p>Şehit Polis Edip Zengin Anadolu Lisesi</p>
+</div>
+<div class="partnerInfo">
+<ul>
+<li>Darica, Turkey</li>
+<li><a href="https://sehitedipzenginal.meb.k12.tr/tema/index.php">www.meb.k12.tr</a></li>
+<li><a href="https://www.facebook.com/groups/527805154470865">Facebook</a></li>
+</ul>
+</div>
+</div>
+<div class="partner">
+<div class="partnerRole">
+<p>PARTNER SCHOOL</p>
+</div>
+<div class="partnerName">
+<p>Colegiul National “Zinca Golescu”</p>
+</div>
+<div class="partnerInfo">
+<ul>
+<li>Pitești, Romania</li>
+<li><a href="https://zinca-golescu.ro/?fbclid=IwAR3YO-UJOPFsw2nwt9hwKnJJuUqrpHkSx8r7m32p6oEQyAzc1eLS_zMV">www.zinca-golescu.ro</a></li>
+<li><a href="https://www.facebook.com/ColegiulNationalZincaGolescu">Facebook</a></li>
+</ul>
+</div>
+</div>
+<div class="partner">
+<div class="partnerRole">
+<p>PARTNER SCHOOL</p>
+</div>
+<div class="partnerName">
+<p>Instituto Nacional de Aprendizagem e Ensino, S.A</p>
+</div>
+<div class="partnerInfo">
+<ul>
+<li>Lisaboa, Portugal</li>
+<li><a href="https://www.epar.pt/">www.epar.pt</a></li>
+</ul>
+</div>
+</div>
+<div class="partner">
+<div class="partnerRole">
+<p>PARTNER SCHOOL</p>
+</div>
+<div class="partnerName">
+<p>Westwood College</p>
+</div>
+<div class="partnerInfo">
+<ul>
+<li>Leek, United Kingdom</li>
+<li><a href="https://www.ttlt.org.uk/?fbclid=IwAR3xM1IE-kIsy3_n1l0iZ-dygF2Wbq5TZvBVPl6AXbN6xkYzitOu4gHTl_A">www.ttlt.org.uk</a></li>
+<li><a href="https://www.facebook.com/WestwoodCollegeLeek">Facebook</a></li>
+</ul>
+</div>
+</div>
+</main>
+</body>
+</html>

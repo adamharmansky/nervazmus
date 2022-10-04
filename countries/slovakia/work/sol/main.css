@@ -1,0 +1,163 @@
+a:visited {
+    text-decoration: none;
+}
+
+article.text {
+    margin: 0 10em 3em 10em;
+    padding: 0 10em;
+    line-height: 1.7;
+    font-size: 115%;
+}
+
+body {
+    background-color: rgb(243, 243, 243);
+    color: #1a1a1a;
+    display: flex;
+    flex-direction: column;
+    font-family: Merriweather, Georgia, serif;
+    font-size: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0; 
+}
+
+div .center_img_50 {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+div .center_img_100 {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+div.default {
+    padding: 2em;
+}
+
+div .description {
+    font-size: 90%;
+    margin-top: 0.2em;
+    text-align: center;  
+} 
+
+footer {
+    background: #111111;
+    bottom: 0;
+    color: white;
+    font-size: 2ex;
+    margin-top: auto;
+    padding: 1em 2em;  
+    text-align: right;
+}
+
+img.go_top_button {
+    display: block;
+    margin: 3em auto 0 auto;
+    width: 6%;
+}
+
+header {
+    background: #111111;   
+}
+
+h1 {
+    font-size: 4.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    text-align: center;  
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 1em;
+    text-align: center;  
+}
+
+nav {
+    font-size: 3ex;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: white;
+    color:rgb(20, 20, 20);
+    border-radius: 5px ;
+}
+
+.nav_list ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.nav_list li {
+    display: inline-block;
+    padding: 1.5ex ;
+}
+
+span.continue_article p {
+    margin: 0;
+}
+
+span.continue_article a {
+    text-decoration: none;
+    color: navy;
+}
+
+span.continue_article a:hover {
+    text-decoration: underline;
+    color: rgb(110, 110, 110);
+}
+
+span.initial_capital {
+    font-size: 200%;
+    line-height: 200%;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+table td {
+    text-align: center;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+}
+
+table tr.top_row th {
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+table, th, td {
+    border: 0.1em solid #1a1a1a;
+}
+
+table caption {
+    font-weight: bold;
+    padding-bottom: 0.5em;
+    font-size: 1.2em;
+}
+
+#t01 tr:nth-child(even) {
+    background-color: rgb(200, 200, 200);
+}
+
+#t01 tr:nth-child(odd) {
+   background-color: rgb(235, 235, 235);
+}
+
+#t01 th {
+    background-color: navy;
+    color: white;
+}

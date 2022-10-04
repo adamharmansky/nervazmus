@@ -1,0 +1,70 @@
+/* CSS Document */
+body{
+  text-align: center
+}
+.odkazy{
+  float: right;
+  background-color: white;
+  border: solid darkblue 2px
+
+}
+
+a{
+  color: darkblue;
+  font-family: Arial CE, sans-serif;
+}
+
+h1{
+  color: darkblue;
+  font-family: Arial CE, sans-serif;
+}
+
+h2{
+  font-family: Arial CE, sans-serif;
+}
+
+body{
+  background-color: lightblue;
+}
+
+img{
+  width: 400px
+}
+
+.kopcesoli{
+  position: absolute; top: 320px; right: 470px; z-index: -1;
+}
+
+.casopis{
+  position: absolute; top: 125px; right: 470px; z-index: -1; 
+}
+
+.king{
+  position: absolute; top: 270px; right: 470px; z-index: -1;  
+}
+
+.sl1{
+  position: absolute; top: 275px; right: 470px; z-index: -1;
+}
+
+p{
+  font-family: Arial CE, sans-serif;
+  font-size: 17px
+}
+
+li{
+  font-family: Arial CE, sans-serif;
+  font-size: 17px
+}
+
+.solnalampa{
+  background-color: white;
+  font-family: Arial CE, sans-serif;
+  border-color: black;
+  border-style: solid;
+
+}
+
+.lampa{
+  width: 300px
+}

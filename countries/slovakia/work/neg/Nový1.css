@@ -1,0 +1,164 @@
+/* CSS Document */
+* {box-sizing: border-box;}
+
+
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin:0;
+  background-color: #040200;}
+
+
+
+
+/* hlavièka*/
+
+header {
+  background-image: url("fotky/black.jpg");
+  padding: 130px;
+  text-align: center;
+  font-size: 20px;
+  color: white;}
+ 
+ 
+ 
+ 
+ 
+ /*popis tlacidla*/
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;}
+
+
+.a:link {
+  color: white;}
+
+.a:visited {
+  color: white;} 
+
+
+.b :link {
+  color: #2f6a32;}
+
+.b:visited {
+  color: #2f6a32;} 
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;}
+
+li a:hover{
+  background-color: #111;}
+
+.active {
+  background-color: #4CAF50;}
+
+
+
+
+
+/*hlavný text*/
+nav.vlavo {
+  float: left;
+  width: 30%;
+  background: #f9f2ec;
+  height: article}
+
+
+article.vpravo {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #fdfbf9;
+  font-size:22px}
+
+nav.vpravo {
+  float: right;
+  width: 30%;
+  background: #f9f2ec;
+  height: article}
+
+
+article.vlavo {
+  float: right;
+  padding: 20px;
+  width: 70%;
+  background-color: #fdfbf9;
+  font-size:22px}
+
+
+
+
+
+/* nadpisy*/
+h2{color:slateblue}
+h4{color:slateblue}
+h5{color:orange}
+
+
+
+
+
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;}
+
+ 
+ 
+ 
+ 
+ 
+  /*tabu¾ka*/
+ table {
+  border-collapse: collapse;
+  width: 100%;}
+
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;}
+
+
+tr:hover {background-color:#f5f5f5;}
+
+
+
+
+
+
+
+/* päta */
+footer {
+  background-color: #040200;
+  padding: 5px;}
+
+#ppata  {
+ text-align: center;
+  color: white;
+  font-size: 12px;}
+
+ 
+
+
+
+.active {
+  background-color: #4CAF50;}
+
+ 

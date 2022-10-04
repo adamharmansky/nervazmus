@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <title> Soľ a umenie </title>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+<!-- NAVIGÁCIA -->
+  <section id="navigation">
+    <div class="content-wrapper">
+      <ul>
+        <li> <a href="jaskyne.html"> Soľné bane </a> </li>
+        <li> <a href="index.html"> Soľ a umenie </a> </li>
+        <li> <a href="zdroje.html"> Zdroje </a> </li>
+      </ul>
+    </div>
+  </section>
+
+<!-- KONTAKT -->
+  <section id="kontakt">
+    <div class="content-wrapper">
+      <h1> Kontakt </h1>
+      <p> V prípade akýchkoľvek otázok ma kontaktujte na <a href="mailto:sisijackova@gmail.com?subject=Soľ a umenie - report">sisijackova@gmail.com </a>
+        alebo vyplňte krátky formulár! </p>
+    </div>
+  </section>
+
+<!-- FORMULÁR -->
+  <section id="form">
+    <div class="content-wrapper">
+      <form method="post">
+        <label for="meno"> <b> Meno: </b> </label>
+        <input type="text" id="meno" name="meno"> <br>
+        <label for="priezvisko"> <b> Priezvisko: </b> </label>
+        <input type="text" id="priezvisko" name="priezvisko"> <br>
+
+        <p> <b> Prečo vypĺňate tento formulár? </b> </p>
+        <input type="radio" id="problem" name="dôvod">
+        <label for="problem"> Mám problém s webstránkou </label> <br>
+        <input type="radio" id="viac" name="dôvod">
+        <label for="viac"> Chcem vedieť viac o danej téme </label> <br>
+        <input type="radio" id="feedback" name="dôvod">
+        <label for="feedback"> Chcem poslať spätnú väzbu </label> <br>
+
+        <textarea name="správa"> Sem napíšte svoju správu </textarea>
+
+        <button type="reset" name="button"> Vymazať všetko </button>
+        <button type="post" name="button"> Odoslať </button>
+
+      </form>
+    </div>
+  </section>
+
+</body>
+</html>

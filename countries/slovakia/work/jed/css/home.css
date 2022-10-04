@@ -1,0 +1,33 @@
+
+
+.titles{
+    margin-top: 32em;
+    color: white;
+    text-align: center;
+}
+
+.food_list{
+    margin-top: 32em;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.food_list .list {
+    display: inline-block;
+    width: auto;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.facts {
+    color: white;
+    text-align: center;
+    margin-top: 32em;
+}
+
+.Article{
+    color: white;
+    text-align: center;
+    margin-top: 16em;
+}

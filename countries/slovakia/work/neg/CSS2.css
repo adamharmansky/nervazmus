@@ -1,0 +1,107 @@
+/* CSS Document */
+*{
+  box-sizing: border-box;}
+
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin:0;
+  background-color: #040200;}
+
+
+
+
+
+/* hlavièka*/
+header {
+  background-image: url("fotky/black.jpg");
+  padding: 120px;
+  text-align: center;
+  font-size: 35px;
+  color: white;}
+
+
+
+
+
+/*hlavný text*/
+nav.vlavo {
+  float: left;
+  width: 30%;
+  background: #f9f2ec;
+  height: article}
+  
+article.vpravo {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #fdfbf9;
+  font-size:22px}
+
+nav.vpravo {
+  float: right;
+  width: 30%;
+  background: #f9f2ec;
+  height: article}
+
+article.vlavo {
+  float: right;
+  padding: 20px;
+  width: 70%;
+  background-color: #fdfbf9;
+  font-size:22px}  
+
+
+
+
+/* päta */
+footer {
+  background-color: #040200;
+  padding: 5px;}
+
+#ppata  {
+ text-align: center;
+  color: white;
+  font-size: 12px;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #040200;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;}    
+
+li {
+  float: left;}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;}
+
+li a:hover {
+  background-color: #111;}
+
+.active {
+  background-color: #4CAF50;}
+
+
+p {text-align: justify}/* CSS Document */
+
+
+
+
+
+
+
+/* nadpisy*/
+h2 {color:orange}
+h4  {color:slateblue}
+h3   {color:slateblue}
+h1 {color:green}

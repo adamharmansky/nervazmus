@@ -1,0 +1,12 @@
+table{
+    margin-top: 16em;
+    width: 100%;
+}
+
+
+table tr td img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

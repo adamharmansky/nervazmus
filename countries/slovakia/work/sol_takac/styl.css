@@ -1,0 +1,122 @@
+body {
+  	background-color: black;
+	background-image: url("pozadie.png");
+    	background-position: right;
+    	background-attachment: fixed;
+    	background-size: auto;
+	background-repeat: no-repeat;
+        margin: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  height: 100%;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+li a img {
+  width: 160px;
+  height: 160px;
+}
+li a.active {
+  background-color: #85d7f2;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+.nadpis{
+  color: #85d7f2;
+  font-size: 100px;
+  text-align: center;
+  float: right;
+  margin-right: 5%;
+}
+
+
+.footer {
+  text-align: center;
+  background: #1c1e1f;
+  padding: 10px;
+  
+}
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  padding: 5px;
+}
+
+div.hlavne {
+  margin-left: 215px;
+}
+.vlajka {
+  float: right;
+  margin-right: 20%;
+}
+
+h2 {
+  color: #00a9ff;
+  font-size: 50px;
+  text-align: center;
+}
+p {
+  color: #ffffff;
+  text-align: center;
+  font-size: 25px;
+}
+ol {
+  color: #00a9ff;
+  font-size: 25px;
+  text-align: left;
+}
+div.gallery{
+
+  float: right;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+#customers {
+  border-collapse: collapse;
+  width: 80%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  background-color: #ffffff;
+}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #00a9ff;
+  color: white;
+}
+.mapa {
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 95%;
+  height: auto;
+}
+.zdroje{
+  color: #ffffff;
+  text-align: left;
+  font-size: 25px;
+}

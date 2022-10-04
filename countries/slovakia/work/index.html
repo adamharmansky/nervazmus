@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Slovakia
+</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel=stylesheet href=/style.css>
+</head>
+<body>
+<nav>
+    <ul class="navbar hiddenNavbar" id="navbar">
+        <li class=navbar-title> Salt over gold</li>
+        <li class=navbar-item> <a href='/'> Home </a> </li>
+        <li class=navbar-item> <a href='/partners/'> Partners </a> </li>
+        <li id="workMenuButton" class=navbar-item>
+           <a> Students' works </a>
+            <ul id=workMenu class="menu invisibleMenu"}>
+               <li class=menuItem> <a href="/countries/slovakia/work"> Slovakia </a> </li>
+                <li class=menuItem> <a href="/countries/italy/work"> Italy </a> </li>
+                <li class=menuItem> <a href="/countries/turkey/work"> Turkey </a> </li>
+                <li class=menuItem> <a href="/countries/romania/work"> Romania </a> </li>
+                <li class=menuItem> <a href="/countries/portugal/work"> Portugal </a> </li>
+                <li class=menuItem> <a href="/countries/uk/work"> United Kingdom </a> </li>
+            </ul>
+        </li>
+        <li id="newsMenuButton" class=navbar-item>
+           <a> News </a>
+            <ul id=newsMenu class="menu invisibleMenu"}>
+                <li class=menuItem> <a href="/countries/slovakia/news"> Slovakia </a> </li>
+                <li class=menuItem> <a href="/countries/italy/news"> Italy </a> </li>
+                <li class=menuItem> <a href="/countries/turkey/news"> Turkey </a> </li>
+                <li class=menuItem> <a href="/countries/romania/news"> Romania </a> </li>
+                <li class=menuItem> <a href="/countries/portugal/news"> Portugal </a> </li>
+                <li class=menuItem> <a href="/countries/uk/news"> United Kingdom </a> </li>
+            </ul>
+        </li>
+        <li id="learnMenuButton" class=navbar-item>
+           <a> LTT Activities </a>
+            <ul id=learnMenu class="menu invisibleMenu">
+                <li class=menuItem> <a href="/countries/slovakia/learn"> Slovakia </a> </li>
+                <li class=menuItem> <a href="/countries/italy/learn"> Italy </a> </li>
+                <li class=menuItem> <a href="/countries/turkey/learn"> Turkey </a> </li>
+                <li class=menuItem> <a href="/countries/romania/learn"> Romania </a> </li>
+                <li class=menuItem> <a href="/countries/uk/learn"> United Kingdom </a> </li>
+                <li class=menuItem> <a href="/countries/portugal/learn"> Portugal </a> </li>
+            </ul>
+        </li>
+        <li class=navbar-item> <a href='https://www.facebook.com/groups/gympos.erazmus.salt.over.gold'> Facebook </a> </li>
+        <img class="menu_button" onclick='let menu=document.getElementById("navbar"); if (navbar.className == "navbar") {navbar.className = "navbar hiddenNavbar";} else {navbar.className = "navbar";}' src="/menu.svg" />
+        <script>
+            function add_events(menuName, buttonName) {
+              let button = document.getElementById(buttonName);
+              let menu = document.getElementById(menuName);
+              if (window.matchMedia("only screen and (max-width: 800px)").matches) {
+                button.onclick = ()=>{ menu.className = menu.className=="menu visibleMenu" ? "menu invisibleMenu" : "menu visibleMenu"; };
+              } else {
+                button.onmouseover = ()=>{ menu.className = "menu visibleMenu"; };
+                button.onmouseout = ()=>{ menu.className = "menu invisibleMenu"; };
+              }
+            }
+            add_events("newsMenu", "newsMenuButton");
+            add_events("workMenu", "workMenuButton");
+            add_events("learnMenu", "learnMenuButton");
+        </script>
+    </ul>
+</nav>
+<main>
+<h1 id="slovakia">Slovakia</h1>
+<h2 id="salt-in-our-diet">Salt in our diet</h2>
+<div class="gallery">
+<p><img src="1648985402462458136.png" onclick="window.open(this.src)" /> <img src="1648985782574108493.png" onclick="window.open(this.src)" /> <img src="1648986084728581808.png" onclick="window.open(this.src)" /> <img src="1648986103366340745.png" onclick="window.open(this.src)" /> <img src="1648986159969371574.png" onclick="window.open(this.src)" /></p>
+</div>
+<h2 id="websites-about-our-project">Websites about our project:</h2>
+<div class="buttonList">
+<ul>
+<li><a href="neg">Negative effects of salt</a></li>
+<li><a href="sol">Salt I</a></li>
+<li><a href="sal">Salt II</a></li>
+<li><a href="ume">Salt in art</a></li>
+<li><a href="tal">Salt route - Italy</a></li>
+<li><a href="sol_takac">Salt route - Portugal</a></li>
+<li><a href="nad">Surplus salt</a></li>
+<li><a href="typ">Types of salt</a></li>
+<li><a href="slo">Salt routes - Slovakia</a><br />
+</li>
+<li><a href="kon">Salt consumtion in UK, Portugal and Turkey</a></li>
+<li><a href="sc">Salt route in Slovakia</a></li>
+</ul>
+</div>
+<h2 id="lets-learn-about-salt">Let’s learn about salt</h2>
+<div class="buttonList">
+<ul>
+<li><a href="salt_routes.pdf">Salt routes</a></li>
+<li><a href="past.pdf">Value of salt in the past</a></li>
+<li><a href="types_of_salt.pdf">Types of salt</a></li>
+</ul>
+</div>
+<h2 id="slovak-logo-designs">Slovak logo designs</h2>
+<div class="gallery">
+<p><img src="1648990288851201111.png" onclick="window.open(this.src)" /> <img src="1648990324312362643.png" onclick="window.open(this.src)" /> <img src="1648990336822477491.png" onclick="window.open(this.src)" /> <img src="1648990350583641635.png" onclick="window.open(this.src)" /> <img src="1648990370605955156.png" onclick="window.open(this.src)" /></p>
+</div>
+</main>
+</body>
+</html>

@@ -1,0 +1,294 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main styling */
+html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1,7em;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    padding-bottom: 20px;
+}
+p {
+    margin: 10px 0;
+}
+
+/*Všeobecné*/
+
+.tlacidlo {
+    display: inline-block;
+    font-size:18px;
+    color:#333;
+    background:#ed9f5f;
+    padding: 10px 20px;
+    border:none;
+    cursor:pointer;
+}
+
+.tlacidlo:hover {
+    background:#333;
+    color:#ed9f5f;    
+}
+
+.zvyraznene {
+    color:#fff;
+}
+
+.svetle {
+    background:#ed9f5f;
+    color:#333;
+}
+
+.tmave {
+    background:#333;
+    color:#fff;
+}
+
+.bunky {
+    color:#ed9f5f;
+}
+
+/*Úvod*/
+#uvod {
+    background:url("../images/cesta.jpg") no-repeat center center/cover;
+    height: 600px;
+    padding: 0;
+}
+
+#uvod h1{
+    font-size: 70px;
+    line-height: 1.2em;
+    padding-left: 30px;
+    padding-top:50px;
+ }
+ 
+ #uvod_info {
+    height:400px; 
+ }
+
+#uvod_info .uvod_img {
+    float:left; 
+    width:50%;
+    background: url("../images/sol2.jpeg"); no-repeat;
+    min-height:100%;
+ }
+ 
+#uvod_info .uvod_text {
+    width:50%;
+    float:right;
+    text-align:center;
+    padding:30px 30px;
+    height:100%;
+    overflow: hidden;
+ }
+
+#uvod_info .uvod_text p {
+    line-height:2em;
+ }
+ 
+#dovoz {
+    height:300px;
+}
+
+#dovoz .dovoz_text{
+    width:50%;
+    min-height:100%;
+    color:#ed9f5f;
+    float:left;
+    line-height:2em;
+    padding:40px 40px;
+}
+
+#dovoz .tabulka {
+    margin-top:0px;
+    background: #333;
+    height: 300px;
+    width:50%;
+    text-align:center;
+    color:#fff;
+}
+/* Navbar */
+
+#navbar {
+    background-color: #333;
+    color: #fff;
+    /* overflow: auto; */
+    height: 61px;
+}
+
+#navbar h1 {
+    float: left;
+    padding-top: 15px;
+    margin-left: 20px;
+}
+
+#navbar a {
+    color: #fff;
+}
+
+#navbar ul {
+    float: right;
+    list-style: none;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center ;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+    background-color: #444;
+    color: #ed9f5f;
+}
+
+ /*Zdroje*/
+ 
+#zdroje {
+    height:600px;
+    width:50%;
+    float:right;
+    padding-left:30px;     
+ }
+ 
+#zdroje h2{
+    color:#ed9f5f;   
+ }
+ 
+#zdroje li, a{
+    padding: 10px 10px;
+    color: #fff;
+ }
+ 
+#zdroje a:hover{
+    color:#ed9f5f;    
+ }
+#dizajn_zdroje .obrazok_zdroje {
+    min-height:300px;
+    background:url("../images/cesta2.jpg");
+    width:50%;
+    float:left;
+    padding:0 0;    
+ }
+ 
+ #dizajn_zdroje .svetle {
+    height:293px;
+    width:50%;
+    float:left;    
+ }
+ 
+/*Footer*/
+#pata {
+    background:#444;
+    color:#fff;
+    padding:20px;
+    text-align:center;
+}
+
+#pata a:hover{
+    color:#ed9f5f;
+}
+
+/*Vyznamne miesta*/
+
+#m .minfo {
+    height:400px;
+    background:#ed9f5f;
+    float:right;
+    line-height:2em;
+    padding:40px 40px;
+}
+
+
+
+#t .tinfo {
+    height:400px;
+    color:#fff;
+    background:#333;
+    float:right;
+    line-height:2em;
+    padding:40px 40px;
+}
+
+#t .tinfo h3 {
+    color:#ed9f5f;
+}
+
+img {
+    float:right;
+    width:auto;
+    height:350px;
+    padding:30px 0;
+    border-color:black;
+    border-style:double;
+
+}
+
+#s .sinfo {
+    height:400px;
+    color:#fff;
+    background:#ed9f5f;
+    float:right;
+    line-height:2em;
+    padding:40px 40px;
+}
+
+#s .sinfo h3 {
+    color:#333;
+}
+
+#so .soinfo {
+    height:400px;
+    color:#ed9f5f;
+    background:#444;
+    float:right;
+    line-height:2em;
+    padding:40px 40px;
+}
+
+#so .soinfo h3 {
+    color:#fff;
+}
+
+#l .linfo {
+    height:400px;
+    color:#fff;
+    background:#ed9f5f;
+    float:right;
+    line-height:2em;
+    padding:40px 40px;
+}
+
+#l .linfo h3 {
+    color:#333;
+}
+
+/*História*/
+#text {
+    height: 700px;
+    background: #ed9f5f;
+    text-align: justify;
+    padding: 0 60px;
+    color:#333;
+}
+
+#text img {
+    float:left;
+    border:none;
+    padding-right:30px;
+}
