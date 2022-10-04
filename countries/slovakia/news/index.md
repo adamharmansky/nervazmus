@@ -8,6 +8,15 @@
  * learning about salt mining in Slovakia
  * meeting miners from the partner salt mine in Wielicska, Poland
 
+::: gallery
+ * ![](salt_excursion/1.jpg){onclick='window.open("full"+this.src)'}
+ * ![](salt_excursion/2.jpg){onclick='window.open("full"+this.src)'}
+ * ![](salt_excursion/3.jpg){onclick='window.open("full"+this.src)'}
+ * ![](salt_excursion/4.jpg){onclick='window.open("full"+this.src)'}
+ * ![](salt_excursion/5.jpg){onclick='window.open("full"+this.src)'}
+ * ![](salt_excursion/6.jpg){onclick='window.open("full"+this.src)'}
+:::
+
 19 September 2022
 
 ## Salt in gastronomy - a workshop with a chef
@@ -17,6 +26,20 @@
  * marinating fish using salt
  * celery baked in salt crust
  * preparing 3-course dinner and tasting it
+
+::: gallery
+ * ![](gastronomy/1.jpg){onclick='window.open("full"+this.src)'}
+ * ![](gastronomy/2.jpg){onclick='window.open("full"+this.src)'}
+ * ![](gastronomy/3.jpg){onclick='window.open("full"+this.src)'}
+ * ![](gastronomy/4.jpg){onclick='window.open("full"+this.src)'}
+ * ![](gastronomy/5.jpg){onclick='window.open("full"+this.src)'}
+ * ![](gastronomy/6.jpg){onclick='window.open("full"+this.src)'}
+ * ![](gastronomy/7.jpg){onclick='window.open("full"+this.src)'}
+ * ![](gastronomy/8.jpg){onclick='window.open("full"+this.src)'}
+ * ![](gastronomy/9.jpg){onclick='window.open("full"+this.src)'}
+ * ![](gastronomy/10.jpg){onclick='window.open("full"+this.src)'}
+ * ![](gastronomy/11.jpg){onclick='window.open("full"+this.src)'}
+:::
 
 20 May 2022
 
@@ -196,13 +219,13 @@ called the Bat cathedral is used for speleotherapy and climatotherapy of asthma
 and allergic diseases.
 
 ::: gallery
- * ![](280746923_545014797030133_4178138644348970855_n.jpg){onclick="window.open(this.src)"}
- * ![](281867852_545015050363441_8930792359736204749_n.jpg){onclick="window.open(this.src)"}
- * ![](281984176_545014717030141_1068519253443715384_n.jpg){onclick="window.open(this.src)"}
- * ![](282107879_545015170363429_2367464060895194384_n.jpg){onclick="window.open(this.src)"}
- * ![](282122513_545015000363446_4823914869556587450_n.jpg){onclick="window.open(this.src)"}
- * ![](282142275_545014940363452_5502275075366004207_n.jpg){onclick="window.open(this.src)"}
- * ![](282146814_545014973696782_2371505806817188357_n.jpg){onclick="window.open(this.src)"}
+ * ![](Jasov/280746923_545014797030133_4178138644348970855_n.jpg){onclick="window.open(this.src)"}
+ * ![](Jasov/281867852_545015050363441_8930792359736204749_n.jpg){onclick="window.open(this.src)"}
+ * ![](Jasov/281984176_545014717030141_1068519253443715384_n.jpg){onclick="window.open(this.src)"}
+ * ![](Jasov/282107879_545015170363429_2367464060895194384_n.jpg){onclick="window.open(this.src)"}
+ * ![](Jasov/282122513_545015000363446_4823914869556587450_n.jpg){onclick="window.open(this.src)"}
+ * ![](Jasov/282142275_545014940363452_5502275075366004207_n.jpg){onclick="window.open(this.src)"}
+ * ![](Jasov/282146814_545014973696782_2371505806817188357_n.jpg){onclick="window.open(this.src)"}
 :::
 
 ---
