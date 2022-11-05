@@ -1,0 +1,16 @@
+*.html
+
+!navbar.html
+!/countries/slovakia/work/ume/*
+!/countries/slovakia/work/typ/*
+!/countries/slovakia/work/tal/*
+!/countries/slovakia/work/sol_takac/*
+!/countries/slovakia/work/sol/*
+!/countries/slovakia/work/slo/*
+!/countries/slovakia/work/sc/*
+!/countries/slovakia/work/sal/*
+!/countries/slovakia/work/neg/*
+!/countries/slovakia/work/nad/*
+!/countries/slovakia/work/kon/*
+!/countries/slovakia/work/jed/*
+!/countries/slovakia/work/art/*
