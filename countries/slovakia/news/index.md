@@ -1,20 +1,46 @@
 # Slovakia
 
-3 September 2022
+19 December 2022
 
-## Day of Salt - excursion to the Museum of salt, Solivar
-
- * guided tour in the museum
- * learning about salt mining in Slovakia
- * meeting miners from the partner salt mine in Wielicska, Poland
+## X-mas party with Erasmus+
+ * performance of the fairy tale "Salt over gold" in a modernised version
+ * English tea and cookies
+ * X-mas games
 
 ::: gallery
- * ![](salt_excursion/1.jpg){onclick='window.open("full"+this.src)'}
- * ![](salt_excursion/2.jpg){onclick='window.open("full"+this.src)'}
- * ![](salt_excursion/3.jpg){onclick='window.open("full"+this.src)'}
- * ![](salt_excursion/4.jpg){onclick='window.open("full"+this.src)'}
- * ![](salt_excursion/5.jpg){onclick='window.open("full"+this.src)'}
- * ![](salt_excursion/6.jpg){onclick='window.open("full"+this.src)'}
+ * ![](xmas/1.jpg){onclick='window.open("full"+this.src)'}
+ * ![](xmas/2.jpg){onclick='window.open("full"+this.src)'}
+ * ![](xmas/3.jpg){onclick='window.open("full"+this.src)'}
+ * ![](xmas/4.jpg){onclick='window.open("full"+this.src)'}
+ * ![](xmas/5.jpg){onclick='window.open("full"+this.src)'}
+ * ![](xmas/6.jpg){onclick='window.open("full"+this.src)'}
+ * ![](xmas/7.jpg){onclick='window.open("full"+this.src)'}
+ * ![](xmas/8.jpg){onclick='window.open("full"+this.src)'}
+:::
+
+9 December 2022
+
+## Exhibition, tasting and quiz
+
+ * tasting salty food (salty snacks, peanuts, cheese, bread, pickles)
+ * showing foods high in salt (sodium) with the aim to avoid or reduce eating it
+ * presentation of various kinds of salt (table, sea, Himalayan pink, technical...)
+ * quiz – students answered the questions:
+ * which of the displayed products is highest in salt
+ * which country consumes most salt
+ * how much salt we should eat daily
+ * distinguish the kinds of salt 
+
+::: gallery
+ * ![](tasting/1.jpg){onclick='window.open("full"+this.src)'}
+ * ![](tasting/2.jpg){onclick='window.open("full"+this.src)'}
+ * ![](tasting/3.jpg){onclick='window.open("full"+this.src)'}
+ * ![](tasting/4.jpg){onclick='window.open("full"+this.src)'}
+ * ![](tasting/5.jpg){onclick='window.open("full"+this.src)'}
+ * ![](tasting/6.jpg){onclick='window.open("full"+this.src)'}
+ * ![](tasting/7.jpg){onclick='window.open("full"+this.src)'}
+ * ![](tasting/8.jpg){onclick='window.open("full"+this.src)'}
+ * ![](tasting/9.jpg){onclick='window.open("full"+this.src)'}
 :::
 
 19 September 2022
@@ -39,6 +65,23 @@
  * ![](gastronomy/9.jpg){onclick='window.open("full"+this.src)'}
  * ![](gastronomy/10.jpg){onclick='window.open("full"+this.src)'}
  * ![](gastronomy/11.jpg){onclick='window.open("full"+this.src)'}
+:::
+
+3 September 2022
+
+## Day of Salt - excursion to the Museum of salt, Solivar
+
+ * guided tour in the museum
+ * learning about salt mining in Slovakia
+ * meeting miners from the partner salt mine in Wielicska, Poland
+
+::: gallery
+ * ![](salt_excursion/1.jpg){onclick='window.open("full"+this.src)'}
+ * ![](salt_excursion/2.jpg){onclick='window.open("full"+this.src)'}
+ * ![](salt_excursion/3.jpg){onclick='window.open("full"+this.src)'}
+ * ![](salt_excursion/4.jpg){onclick='window.open("full"+this.src)'}
+ * ![](salt_excursion/5.jpg){onclick='window.open("full"+this.src)'}
+ * ![](salt_excursion/6.jpg){onclick='window.open("full"+this.src)'}
 :::
 
 20 May 2022
