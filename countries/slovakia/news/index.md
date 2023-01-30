@@ -1,5 +1,25 @@
 # Slovakia
 
+27 January 2023
+
+## Open Day
+ * disseminating Erasmus+ projects incl. "Salt over gold - myth or truth?"
+ * presentation about Erasmus+
+ * exhibition of students´ project works
+ * students´ talk about their experience and participation in mobilities
+ * quiz about salt for the visitors
+
+::: gallery
+ * ![](openday/1.jpg){onclick='window.open("full"+this.src)'}
+ * ![](openday/2.jpg){onclick='window.open("full"+this.src)'}
+ * ![](openday/3.jpg){onclick='window.open("full"+this.src)'}
+ * ![](openday/4.jpg){onclick='window.open("full"+this.src)'}
+ * ![](openday/5.jpg){onclick='window.open("full"+this.src)'}
+ * ![](openday/6.jpg){onclick='window.open("full"+this.src)'}
+ * ![](openday/7.jpg){onclick='window.open("full"+this.src)'}
+ * ![](openday/8.jpg){onclick='window.open("full"+this.src)'}
+:::
+
 19 December 2022
 
 ## X-mas party with Erasmus+
