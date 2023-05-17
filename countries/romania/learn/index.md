@@ -1,4 +1,4 @@
-# LTT - Romania
+# LTT C2 - Romania
 
 ::: buttonList
  * [Programme](Programme.jpg)

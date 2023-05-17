@@ -22,6 +22,7 @@ generate_document() {
 					get_title "$1"
 				echo "</title>"
 				echo '<meta name="viewport" content="width=device-width, initial-scale=1">'
+				echo '<meta charset="UTF-8">'
 				echo "<link rel=stylesheet href=/style.css>"
 			echo "</head>"
 			echo "<body>"

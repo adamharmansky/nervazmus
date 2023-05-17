@@ -1,4 +1,4 @@
-# LTT - Slovakia
+# LTT C4 - Slovakia
 
 ## Day 1 - 27.2. (Monday)
 

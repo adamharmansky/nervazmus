@@ -1,7 +1,7 @@
-# LTT - Turkiye
+# LTT C3 - Turkiye
 
 ::: buttonList
- * [Programme](programme.docx)
+ * [Programme](Programme.docx)
 :::
 
 ## Day 1
