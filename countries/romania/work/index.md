@@ -1,5 +1,35 @@
 # Romania
 
+## Websites
+
+<center>
+[Romanian Salt Mines - interactive map](https://maphub.net/Erasmussaltovergold/map)
+</center>
+
+<center>
+[Calendar - The Romanian Salt Mines](https://www.calameo.com/read/005274096ddad59e4093a)
+</center>
+
+<center>
+[Blog](https://saltovergoldromania.blogspot.com)
+</center>
+
+<center>
+[Documentary](https://youtu.be/XZGHLNlDQ_k)
+</center>
+
+<center>
+[The history of salt extraction in Romania](https://www.calameo.com/read/005274096f65a9cd16977)
+</center>
+
+<center>
+[Quiz](https://create.kahoot.it/details/39710750-5b0a-4931-b2af-7d5b0bca574d)
+</center>
+
+<center>
+[Salt Fairy Tales](https://www.calameo.com/read/005274096fe62aeed21b7)
+</center>
+
 ## Salt in art - painting Christmas cards with salt
 
 ::: gallery
